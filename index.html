@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fotografia</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato|Poppins:300,400,500&display=swap" rel="stylesheet">
+	<link rel="icon" type="imagem/png" href="img/123.png" />
+	<link href="bootstrap.min.css" rel="stylesheet">
+	<link href="galeria.css" rel="stylesheet">
+
+	<link rel="canonical" href="indexis">
+
+	<style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="galeria-modal" onclick="fecharGaleria()">
+        <span>X</span>
+        <img src="" alt="">
+    </div>
+
+    <section>
+        <div class="galeria">
+            <div class="single-galeria w-2 h-2">
+                <img style="border: 2px solid #FCD571;" src="img/img1.png" alt="" onclick="abrirGaleria('img/img1.png')">
+            </div>
+            <div class="single-galeria w-2">
+                <img style="border: 2px solid #FCD571;" src="img/img4.png" alt="" onclick="abrirGaleria('img/img4.png')">
+            </div>
+            <div class="single-galeria">
+                <h1 style="color: #FCD571;">Beatriz Vasconcelos</h1>
+            </div>
+            <div class="single-galeria h-2">
+                <img style="border: 2px solid #FCD571;" src="img/img2.png" alt="" onclick="abrirGaleria('img/img2.png')">
+            </div>
+            <div class="single-galeria">
+                <img style="border: 2px solid #FCD571;" src="img/img3.png" alt="" onclick="abrirGaleria('img/img3.png')">
+            </div>
+            <div class="single-galeria w-2">
+                <img style="border: 2px solid #FCD571;" src="img/img6.png" alt="" onclick="abrirGaleria('img/img6.png')">
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+<footer class="container">
+    <p class="float-end"><a href="#" style="text-decoration: none;">Voltar ao topo</a></p>
+    <p> 2023, Fotografias &middot; <a href="https://www.instagram.com/trizregistrando/" style="text-decoration: none;">Instagram</a> &middot; <a href="https://www.linkedin.com/in/beatriz-vasconcelos-26b3aa191/" style="text-decoration: none;">Linkedin</a></p>
+  </footer>
+<!-- Fim Footer -->
+
+</main>
+
+    <script src="script.js"></script>
+
+    <script src="bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
