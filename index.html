@@ -39,23 +39,23 @@
 
     <section>
         <div class="galeria">
-            <div class="single-galeria w-2 h-2">
-                <img style="border: 2px solid #FCD571;" src="img/img1.png" alt="" onclick="abrirGaleria('img/img1.png')">
+            <div class="single-galeria w-2 h-2 rellax" data-rellax-speed="-4">
+                <img  src="img/img1.png" alt="" onclick="abrirGaleria('img/img1.png')">
             </div>
-            <div class="single-galeria w-2">
-                <img style="border: 2px solid #FCD571;" src="img/img4.png" alt="" onclick="abrirGaleria('img/img4.png')">
+            <div class="single-galeria w-2 rellax" data-rellax-speed="5">
+                <img  src="img/img4.png" alt="" onclick="abrirGaleria('img/img4.png')">
             </div>
-            <div class="single-galeria">
-                <h1 style="color: #FCD571;">Beatriz Vasconcelos</h1>
+            <div class="single-galeria rellax" data-rellax-speed="-2">
+                <h1 style="color: #e6b53a; text-shadow: 2px 2px 4px #020202;">Beatriz Vasconcelos</h1>
             </div>
-            <div class="single-galeria h-2">
-                <img style="border: 2px solid #FCD571;" src="img/img2.png" alt="" onclick="abrirGaleria('img/img2.png')">
+            <div class="single-galeria h-2 rellax" data-rellax-speed="9">
+                <img  src="img/img2.png" alt="" onclick="abrirGaleria('img/img2.png')">
             </div>
-            <div class="single-galeria">
-                <img style="border: 2px solid #FCD571;" src="img/img3.png" alt="" onclick="abrirGaleria('img/img3.png')">
+            <div class="single-galeria rellax" data-rellax-speed="2" >
+                <img  src="img/img3.png" alt="" onclick="abrirGaleria('img/img3.png')">
             </div>
-            <div class="single-galeria w-2">
-                <img style="border: 2px solid #FCD571;" src="img/img6.png" alt="" onclick="abrirGaleria('img/img6.png')">
+            <div class="single-galeria w-2 rellax" data-rellax-speed="9">
+                <img  src="img/img6.png" alt="" onclick="abrirGaleria('img/img6.png')">
             </div>
         </div>
     </section>
@@ -73,6 +73,11 @@
 
     <script src="bootstrap.bundle.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+    <script>
+        var rellax = new Rellax('.rellax');
+    </script>
 
 </body>
 </html>
